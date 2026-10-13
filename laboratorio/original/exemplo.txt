@@ -1,0 +1,3 @@
+LABORATORIO EDUCACIONAL DIO
+Este arquivo contem somente dados ficticios para estudar criptografia.
+O original deve permanecer intacto durante toda a demonstracao.

@@ -1,0 +1,20 @@
+REGISTRO DEMONSTRATIVO - 13/10/2026
+Python 3.12.14 | cryptography 50.0.2
+Executado em uma copia isolada com dados ficticios.
+
+$ python encrypter.py
+Criptografia do exemplo concluida.
+Copia criptografada: laboratorio/gerados/exemplo.txt.fernet
+Chave local: laboratorio/gerados/chave-demo.key (conteudo nao exibido)
+Original preservado: laboratorio/original/exemplo.txt
+Proximo passo: python decrypter.py
+
+$ python decrypter.py
+Descriptografia do exemplo concluida.
+Copia recuperada: laboratorio/gerados/exemplo.recuperado.txt
+SHA-256 do original e da copia recuperada: dbb3318e344607808512fb7daaf3872a2d9e9e01e31481e7b3cf5345080f72c7
+Verificacao: conteudos identicos; arquivo original preservado.
+
+Conferencia independente: original intacto e copia identica.
+SHA-256: dbb3318e344607808512fb7daaf3872a2d9e9e01e31481e7b3cf5345080f72c7
+A chave e os resultados gerados nao acompanham o pacote de publicacao.
